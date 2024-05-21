@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ProyectoDeVerdad.AutoGame"
+        Title="Gato">
+        
+    <Grid x:Name="Grid" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="0" x:Name="Turn" Content="Turno del jugador 1" FontSize="30"/>
+                
+        <StackPanel x:Name="A" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="Btn1" Click="OnBtn1Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn2" Click="OnBtn2Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn3" Click="OnBtn3Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </StackPanel>
+                
+        <StackPanel x:Name="B" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="Btn4" Click="OnBtn4Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn5" Click="OnBtn5Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn6" Click="OnBtn6Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </StackPanel>
+                
+        <StackPanel x:Name="C" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="Btn7" Click="OnBtn7Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn8" Click="OnBtn8Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="Btn9" Click="OnBtn9Clicked" Content="" FontSize="50" Width="100" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </StackPanel>
+        
+        <Label Grid.Row="4" x:Name="Result" Content="Bienvenido" FontSize="30"/>
+        
+        <Button Grid.Row="5" x:Name="Reset" Click="Reset_OnClick" Content="Resetear" FontSize="20"/>
+        
+    </Grid>
+</Window>

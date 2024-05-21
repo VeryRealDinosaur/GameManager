@@ -1,0 +1,47 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ProyectoDeVerdad.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ProyectoDeVerdad.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="ProyectoDeVerdad">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_W">
+                    <MenuItem Header="_Opciones" Command="{Binding OptionMenu}"/>
+                    <MenuItem Header="_Salir" Command="{Binding ExitMainMenu}"/>
+                </MenuItem>
+                <MenuItem Header="_Gato">
+                    <MenuItem Header="_Nueva partida">
+                        <MenuItem Header="_1Vs1" Command="{Binding PlayGato1V1}"/>
+                        <MenuItem Header="_VsAI" Command="{Binding PlayGatoVsAi}"/>
+                    </MenuItem>
+                    <MenuItem Header="_Eliminar juego" Command="{Binding DeleteGato}"/>
+                </MenuItem>
+                <MenuItem Header="_PPoT">
+                    <MenuItem Header="_Nueva partida">
+                        <MenuItem Header="_Entrenar" Command="{Binding TrainPPoT}"/>
+                        <MenuItem Header="_Jugar" Command="{Binding PlayPPoT}"/>
+                    </MenuItem>
+                    <MenuItem Header="_Eliminar juego" Command="{Binding DeletePPoT}"/>
+                </MenuItem>
+                <MenuItem Header="_Risk">
+                    <MenuItem Header="_Nueva partida" Command="{Binding PlayRisk}"/>
+                    <MenuItem Header="_Eliminar juego" Command="{Binding DeleteRisk}"/>
+                </MenuItem>
+            </Menu>
+            <TextBlock ></TextBlock>
+        </DockPanel>
+        
+        
+    </Window>

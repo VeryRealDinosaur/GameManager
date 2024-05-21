@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="ProyectoDeVerdad/Views/AutoGame.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Game.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Gato/AutoGame.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Gato/Game.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/MainWindow.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Menu/MainWindow.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/MenuOpciones.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/PPoT/Game.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
