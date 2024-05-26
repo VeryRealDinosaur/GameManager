@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="ProyectoDeVerdad/App.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
         <entry key="ProyectoDeVerdad/Views/AutoGame.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
         <entry key="ProyectoDeVerdad/Views/Game.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
         <entry key="ProyectoDeVerdad/Views/Gato/AutoGame.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />

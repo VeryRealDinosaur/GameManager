@@ -19,8 +19,10 @@ namespace ProyectoDeVerdad
             Turn = this.FindControl<Label>("Turn");
             Result = this.FindControl<Label>("Result");
             TimerLabel = this.Find<Label>("TimerLabel");
+            MyAcrylicMaterial = this.FindControl<ExperimentalAcrylicBorder>("MyAcrylicMaterial");
         }
-
+        
+        
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
@@ -88,7 +90,8 @@ namespace ProyectoDeVerdad
                     if (Turno % 2 == 0)
                     {
                         Turn.Content = "Turno del jugador 1";
-                        button.Background = Brushes.OrangeRed;
+                        button.Background = Brushes.OrangeRed; 
+                        MyAcrylicMaterial.Material.TintColor = Colors.DarkRed; 
                         button.Content = "X";
                 
                     }
@@ -96,6 +99,7 @@ namespace ProyectoDeVerdad
                     {
                         Turn.Content = "Turno del jugador 2";
                         button.Background = Brushes.Aqua;
+                        MyAcrylicMaterial.Material.TintColor = Colors.DarkCyan; 
                         button.Content = "O";
                     }
 
@@ -115,6 +119,7 @@ namespace ProyectoDeVerdad
                             if (count == 14)
                             {
                                 Result.Content = "Empate";
+                                MyAcrylicMaterial.Material.TintColor = Colors.Black;
                                 Turn.Content = "";
                             }
                         }

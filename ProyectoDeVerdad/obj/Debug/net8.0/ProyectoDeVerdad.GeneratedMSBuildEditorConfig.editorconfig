@@ -31,12 +31,3 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/Views/MenuOpciones.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/Views/PPoT/Game.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/Views/PPoT/MainMenu.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
-
-[/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/Views/PPoT/Training.axaml]
-build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

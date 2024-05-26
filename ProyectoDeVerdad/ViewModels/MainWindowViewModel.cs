@@ -1,5 +1,7 @@
-﻿using System.Reactive;
+﻿using System.Drawing;
+using System.Reactive;
 using System.Reflection.Metadata;
+using System.Xml;
 using ProyectoDeVerdad.Views;
 using ReactiveUI;
 
@@ -31,7 +33,7 @@ public class MainWindowViewModel : ViewModelBase
             PlayRisk = ReactiveCommand.Create(ExecutePlayRisk);
             DeleteRisk = ReactiveCommand.Create(ExecuteDeleteRisk);
         }
-
+        
         private void ExecuteOptionMenu()
         {
             var optionMenu = new MenuOpciones();
@@ -40,18 +42,16 @@ public class MainWindowViewModel : ViewModelBase
         
         private void ExecuteExitMainMenu()
         {
-            var optionMenu = new MenuOpciones();
-            optionMenu.Show();
         }
         private void ExecutePlayGato1V1()
         {
-            var Gato1V1 = new Game();
-            Gato1V1.Show();
+            var gato1V1 = new Game();
+            gato1V1.Show();
         }
         private void ExecutePlayGatoVsAi()
         {
-            var optionMenu = new MenuOpciones();
-            optionMenu.Show();
+            var gatoVsAi = new AutoGame();
+            gatoVsAi.Show();
         }
         private void ExecuteDeleteGato()
         {

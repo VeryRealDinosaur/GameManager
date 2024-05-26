@@ -134,3 +134,4 @@
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Proyecto.E6207D71.Up2Date
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.genruntimeconfig.cache
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ref/ProyectoDeVerdad.dll
+/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.sourcelink.json

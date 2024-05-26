@@ -4,7 +4,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="ProyectoDeVerdad.Game"
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True"
         Title="Gato">
+    
+    <Panel>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False" x:Name="MyAcrylicMaterial">
+            <ExperimentalAcrylicBorder.Material >
+                <ExperimentalAcrylicMaterial 
+                    BackgroundSource="Digger"
+                    TintColor ="Black"
+                    TintOpacity="1"
+                    MaterialOpacity="0.20" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
         
     <Grid x:Name="Grid" HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
@@ -44,4 +58,5 @@
         <Button Grid.Row="5" x:Name="Reset" Click="Reset_OnClick" Content="Resetear" FontSize="20"/>
         
     </Grid>
+        </Panel>
 </Window>

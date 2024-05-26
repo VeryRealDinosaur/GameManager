@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
@@ -13,6 +14,8 @@ namespace ProyectoDeVerdad
             InitializeComponent();
             Turn = this.FindControl<Label>("Turn");
             Result = this.FindControl<Label>("Result");
+            MyAcrylicMaterial = this.FindControl<ExperimentalAcrylicBorder>("MyAcrylicMaterial");
+
         }
 
         private void InitializeComponent()
@@ -86,6 +89,7 @@ namespace ProyectoDeVerdad
                     if (count == 14)
                     {
                         Result.Content = "Empate";
+                        MyAcrylicMaterial.Material.TintColor = Colors.Black;
                         Turn.Content = "";
                     }
                 }
@@ -101,6 +105,7 @@ namespace ProyectoDeVerdad
                 if (button.Content == "")
                 {
                     button.Background = Brushes.OrangeRed;
+                    MyAcrylicMaterial.Material.TintColor = Colors.DarkRed; 
                     button.Content = "X";
                 }
             }
@@ -108,7 +113,7 @@ namespace ProyectoDeVerdad
             Turno++;
         }
 
-        private void Machine()
+        private async void Machine()
         {
             cont++;
             if (HasWon()) return;
@@ -117,6 +122,7 @@ namespace ProyectoDeVerdad
             {
                 Button button = this.FindControl<Button>($"Btn{index + 1}");
                 button.Background = Brushes.Aqua;
+                MyAcrylicMaterial.Material.TintColor = Colors.DarkCyan; 
                 button.Content = "O";
                 Estado[index] = 1;
                 Turno++;
@@ -135,7 +141,7 @@ namespace ProyectoDeVerdad
             return new Random().Next(9);
         }
         
-        private void OnBtn1Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn1Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
@@ -143,13 +149,14 @@ namespace ProyectoDeVerdad
                 {
                     UpdateButtonBackground("Btn1");
                     Estado[0] = 2;
+                    await Task.Delay(500);
                     Machine();
                     DisplayMsg();
                 }
             }
             
         }
-        private void OnBtn2Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn2Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
@@ -157,96 +164,104 @@ namespace ProyectoDeVerdad
                 {
                     UpdateButtonBackground("Btn2");
                     Estado[1] = 2;
+                    await Task.Delay(500);
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn3Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn3Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[2] == 0)
                 {
                     UpdateButtonBackground("Btn3");
+                    await Task.Delay(500);
                     Estado[2] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn4Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn4Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[3] == 0)
                 {
                     UpdateButtonBackground("Btn4");
+                    await Task.Delay(500);
                     Estado[3] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn5Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn5Clicked(object? sender, RoutedEventArgs e)
         {
             if (!HasWon())
             {
                 if (Estado[4] == 0)
                 {
                     UpdateButtonBackground("Btn5");
+                    await Task.Delay(500);
                     Estado[4] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn6Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn6Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[5] == 0)
                 {
                     UpdateButtonBackground("Btn6");
+                    await Task.Delay(500);
                     Estado[5] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn7Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn7Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[6] == 0)
                 {
                     UpdateButtonBackground("Btn7");
+                    await Task.Delay(500);
                     Estado[6] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn8Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn8Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[7] == 0)
                 {
                     UpdateButtonBackground("Btn8");
+                    await Task.Delay(500);
                     Estado[7] = 2;
                     Machine();
                     DisplayMsg();
                 }
             }
         }
-        private void OnBtn9Clicked(object? sender, RoutedEventArgs e)
+        private async void OnBtn9Clicked(object? sender, RoutedEventArgs e)
         {
             if (HasWon() == false)
             {
                 if (Estado[8] == 0)
                 {
                     UpdateButtonBackground("Btn9");
+                    await Task.Delay(500);
                     Estado[8] = 2;
                     Machine();
                     DisplayMsg();
