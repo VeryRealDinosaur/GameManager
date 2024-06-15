@@ -135,3 +135,291 @@
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.genruntimeconfig.cache
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ref/ProyectoDeVerdad.dll
 /Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.sourcelink.json
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.deps.json
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.runtimeconfig.json
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.pdb
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Base.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.DesignerSupport.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Dialogs.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Markup.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Metal.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.MicroCom.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.OpenGL.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Desktop.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Diagnostics.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.FreeDesktop.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Native.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.ReactiveUI.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Skia.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Themes.Simple.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Win32.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.X11.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/DynamicData.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/HarfBuzzSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/MicroCom.Runtime.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ReactiveUI.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/SkiaSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Splat.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.Reactive.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Tmds.DBus.Protocol.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.csproj.AssemblyReference.cache
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/resources
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.AssemblyInfoInputs.cache
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.AssemblyInfo.cs
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.csproj.CoreCompileInputs.cache
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.sourcelink.json
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/references
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.pdb
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.ref.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/refint/ProyectoDeVerdad.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.pdb
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Proyecto.E6207D71.Up2Date
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.genruntimeconfig.cache
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ref/ProyectoDeVerdad.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Svg.Skia.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ExCSS.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ShimSkiaSharp.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/SkiaSharp.HarfBuzz.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Custom.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Model.dll
+/Users/jovanyrobledo/Documents/Project/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Skia.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.deps.json
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.runtimeconfig.json
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ProyectoDeVerdad.pdb
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Base.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.DesignerSupport.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Dialogs.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Markup.Xaml.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Markup.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Metal.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.MicroCom.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.OpenGL.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.ColorPicker.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Controls.DataGrid.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Desktop.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Diagnostics.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Fonts.Inter.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.FreeDesktop.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Native.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.ReactiveUI.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Remote.Protocol.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Skia.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Svg.Skia.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Themes.Fluent.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Themes.Simple.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.Win32.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Avalonia.X11.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/DynamicData.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ExCSS.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/HarfBuzzSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/MicroCom.Runtime.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.CodeAnalysis.Scripting.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ReactiveUI.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ShimSkiaSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/SkiaSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/SkiaSharp.HarfBuzz.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Splat.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Custom.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Model.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Svg.Skia.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.Drawing.Common.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/System.Reactive.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/Tmds.DBus.Protocol.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/av_libglesv2.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/av_libglesv2.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/av_libglesv2.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libAvaloniaNative.dylib
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm/native/libSkiaSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/linux-x64/native/libSkiaSharp.so
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/osx/native/libSkiaSharp.dylib
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.csproj.AssemblyReference.cache
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/resources
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.AssemblyInfoInputs.cache
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.AssemblyInfo.cs
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.csproj.CoreCompileInputs.cache
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.sourcelink.json
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/references
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.pdb
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Avalonia/original.ref.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/refint/ProyectoDeVerdad.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.dll
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.pdb
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/Proyecto.E6207D71.Up2Date
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ProyectoDeVerdad.genruntimeconfig.cache
+/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/Debug/net8.0/ref/ProyectoDeVerdad.dll

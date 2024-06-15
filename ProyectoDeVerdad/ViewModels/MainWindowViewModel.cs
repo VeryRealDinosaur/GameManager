@@ -3,7 +3,9 @@ using System.Reactive;
 using System.Reflection.Metadata;
 using System.Xml;
 using ProyectoDeVerdad.Views;
+using ProyectoDeVerdad.Views.Rock;
 using ReactiveUI;
+using Risk.Views;
 
 namespace ProyectoDeVerdad.ViewModels;
 
@@ -60,13 +62,13 @@ public class MainWindowViewModel : ViewModelBase
         }
         private void ExecuteTrainPPoT()
         {
-            var optionMenu = new MenuOpciones();
-            optionMenu.Show();
+            var trainTHOMAS = new PaperTraining();
+            trainTHOMAS.Show();
         }
         private void ExecutePlayPPoT()
         {
-            var optionMenu = new MenuOpciones();
-            optionMenu.Show();
+            var rock = new Rock();
+            rock.Show();
         }
         private void ExecuteDeletePPoT()
         {
@@ -75,8 +77,8 @@ public class MainWindowViewModel : ViewModelBase
         }
         private void ExecutePlayRisk()
         {
-            var optionMenu = new MenuOpciones();
-            optionMenu.Show();
+            var risk = new RiskGame();
+            risk.Show();
         }
         private void ExecuteDeleteRisk()
         {

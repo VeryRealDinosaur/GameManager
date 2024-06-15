@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj": {}
+    "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj": {}
   },
   "projects": {
-    "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj": {
+    "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
+        "projectUniqueName": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
         "projectName": "ProyectoDeVerdad",
-        "projectPath": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
-        "packagesPath": "/Users/jovanyrobledo/.nuget/packages/",
-        "outputPath": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/",
+        "projectPath": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
+        "packagesPath": "/Users/jovany/.nuget/packages/",
+        "outputPath": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jovanyrobledo/.nuget/NuGet/NuGet.Config"
+          "/Users/jovany/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[11.0.6, )"
             },
+            "Avalonia.Svg.Skia": {
+              "target": "Package",
+              "version": "[11.0.0.18, )"
+            },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.6, )"
@@ -79,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/jovany/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

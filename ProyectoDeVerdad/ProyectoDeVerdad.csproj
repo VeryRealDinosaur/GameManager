@@ -11,13 +11,13 @@
     <ItemGroup>
         <Folder Include="Models\"/>
         <AvaloniaResource Include="Assets\**"/>
-        <Folder Include="Views\PPoT\" />
     </ItemGroup>
 
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="11.0.6"/>
         <PackageReference Include="Avalonia.Desktop" Version="11.0.6"/>
+        <PackageReference Include="Avalonia.Svg.Skia" Version="11.0.0.18" />
         <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.6"/>
         <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.6"/>
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
@@ -42,5 +42,10 @@
       <Compile Update="Views\PPoT\Game.axaml.cs">
         <DependentUpon>Game.axaml</DependentUpon>
       </Compile>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\Risk\Risk.axaml" />
     </ItemGroup>
 </Project>

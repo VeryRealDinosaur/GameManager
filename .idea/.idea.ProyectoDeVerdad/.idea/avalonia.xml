@@ -12,6 +12,12 @@
         <entry key="ProyectoDeVerdad/Views/Menu/MainWindow.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
         <entry key="ProyectoDeVerdad/Views/MenuOpciones.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
         <entry key="ProyectoDeVerdad/Views/PPoT/Game.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Risk/MainWindow.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Risk/Risk.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Risk/RiskGame.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Rock/PaperTraining.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Rock/Rock.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
+        <entry key="ProyectoDeVerdad/Views/Rock/RockTraining.axaml" value="ProyectoDeVerdad/ProyectoDeVerdad.csproj" />
       </map>
     </option>
   </component>

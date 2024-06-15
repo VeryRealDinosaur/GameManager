@@ -285,6 +285,21 @@
           }
         }
       },
+      "Avalonia.Svg.Skia/11.0.0.18": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0",
+          "Avalonia.Skia": "11.0.0",
+          "SkiaSharp": "2.88.6",
+          "Svg.Skia": "1.0.0.18"
+        },
+        "compile": {
+          "lib/net8.0/Avalonia.Svg.Skia.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Avalonia.Svg.Skia.dll": {}
+        }
+      },
       "Avalonia.Themes.Fluent/11.0.6": {
         "type": "package",
         "dependencies": {
@@ -368,6 +383,15 @@
           "lib/net6.0/DynamicData.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ExCSS/4.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/ExCSS.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/ExCSS.dll": {}
         }
       },
       "HarfBuzzSharp/7.3.0": {
@@ -806,6 +830,15 @@
           }
         }
       },
+      "ShimSkiaSharp/1.0.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ShimSkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ShimSkiaSharp.dll": {}
+        }
+      },
       "SkiaSharp/2.88.6": {
         "type": "package",
         "dependencies": {
@@ -819,6 +852,23 @@
         },
         "runtime": {
           "lib/net6.0/SkiaSharp.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.6": {
+        "type": "package",
+        "dependencies": {
+          "HarfBuzzSharp": "7.3.0",
+          "SkiaSharp": "2.88.6"
+        },
+        "compile": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -915,6 +965,46 @@
           "lib/net6.0/Splat.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Svg.Custom/1.0.0.18": {
+        "type": "package",
+        "dependencies": {
+          "ExCSS": "4.2.3"
+        },
+        "compile": {
+          "lib/net8.0/Svg.Custom.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svg.Custom.dll": {}
+        }
+      },
+      "Svg.Model/1.0.0.18": {
+        "type": "package",
+        "dependencies": {
+          "ShimSkiaSharp": "1.0.0.18",
+          "Svg.Custom": "1.0.0.18"
+        },
+        "compile": {
+          "lib/net8.0/Svg.Model.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svg.Model.dll": {}
+        }
+      },
+      "Svg.Skia/1.0.0.18": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "2.88.6",
+          "SkiaSharp.HarfBuzz": "2.88.6",
+          "Svg.Custom": "1.0.0.18",
+          "Svg.Model": "1.0.0.18"
+        },
+        "compile": {
+          "lib/net8.0/Svg.Skia.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svg.Skia.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1837,6 +1927,21 @@
         "lib/netstandard2.0/Avalonia.Skia.xml"
       ]
     },
+    "Avalonia.Svg.Skia/11.0.0.18": {
+      "sha512": "bcTm9sD6esc7r7CsibkcjNEBT6iEpLYUY3Mr+DxHFE6igE+jLral2y47WEyCGkJI+DdvPzCLsuUHZqmCYbCIRA==",
+      "type": "package",
+      "path": "avalonia.svg.skia/11.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.svg.skia.11.0.0.18.nupkg.sha512",
+        "avalonia.svg.skia.nuspec",
+        "lib/net461/Avalonia.Svg.Skia.dll",
+        "lib/net6.0/Avalonia.Svg.Skia.dll",
+        "lib/net8.0/Avalonia.Svg.Skia.dll",
+        "lib/netstandard2.0/Avalonia.Svg.Skia.dll"
+      ]
+    },
     "Avalonia.Themes.Fluent/11.0.6": {
       "sha512": "9z2PFdJEVZo7x8UyfZDVqFF5fayealTl0VtNLwfX7DSE0lXpEPBTmx4q4KseKCFkiAQ0WZ/8YH1K3HjPeO8cHQ==",
       "type": "package",
@@ -1921,6 +2026,24 @@
         "lib/uap10.0.16299/DynamicData.pri",
         "lib/uap10.0.16299/DynamicData.xml",
         "logo.png"
+      ]
+    },
+    "ExCSS/4.2.3": {
+      "sha512": "SyeAfu2wL5247sipJoPUzQfjiwQtfSd8hN4IbgoyVcDx4PP6Dud4znwPRibWQzLtTlUxYYcbf5f4p+EfFC7KtQ==",
+      "type": "package",
+      "path": "excss/4.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "excss.4.2.3.nupkg.sha512",
+        "excss.nuspec",
+        "lib/net48/ExCSS.dll",
+        "lib/net6.0/ExCSS.dll",
+        "lib/net7.0/ExCSS.dll",
+        "lib/netcoreapp3.1/ExCSS.dll",
+        "lib/netstandard2.0/ExCSS.dll",
+        "lib/netstandard2.1/ExCSS.dll",
+        "readme.md"
       ]
     },
     "HarfBuzzSharp/7.3.0": {
@@ -2555,6 +2678,21 @@
         "reactiveui.nuspec"
       ]
     },
+    "ShimSkiaSharp/1.0.0.18": {
+      "sha512": "zcUISy3XoIPrYWOeHqt/CrM2oX+OHon91aEtIbfiWb/7eP5V20kjkwhN1h4V0eloy62jVE8H1TE5PCVQ0k0M2Q==",
+      "type": "package",
+      "path": "shimskiasharp/1.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/ShimSkiaSharp.dll",
+        "lib/net6.0/ShimSkiaSharp.dll",
+        "lib/net8.0/ShimSkiaSharp.dll",
+        "lib/netstandard2.0/ShimSkiaSharp.dll",
+        "shimskiasharp.1.0.0.18.nupkg.sha512",
+        "shimskiasharp.nuspec"
+      ]
+    },
     "SkiaSharp/2.88.6": {
       "sha512": "wdfeBAQrEQCbJIRgAiargzP1Uy+0grZiG4CSgBnhAgcJTsPzlifIaO73JRdwIlT3TyBoeU9jEqzwFUhl4hTYnQ==",
       "type": "package",
@@ -2627,6 +2765,36 @@
         "lib/xamarinwatchos1.0/SkiaSharp.xml",
         "skiasharp.2.88.6.nupkg.sha512",
         "skiasharp.nuspec"
+      ]
+    },
+    "SkiaSharp.HarfBuzz/2.88.6": {
+      "sha512": "s5yZTHdqbXKiTL06ns6zW3asELfX60dEceA4ZdYmNlOkz/OyWDfdjHAuu4HGDA7Mxx5iaUEzDZgPkEe+OVr/jg==",
+      "type": "package",
+      "path": "skiasharp.harfbuzz/2.88.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net462/SkiaSharp.HarfBuzz.dll",
+        "lib/net462/SkiaSharp.HarfBuzz.pdb",
+        "lib/net462/SkiaSharp.HarfBuzz.xml",
+        "lib/net6.0/SkiaSharp.HarfBuzz.dll",
+        "lib/net6.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/net6.0/SkiaSharp.HarfBuzz.xml",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.dll",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.pdb",
+        "lib/netcoreapp3.1/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard1.3/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.0/SkiaSharp.HarfBuzz.xml",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.dll",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.pdb",
+        "lib/netstandard2.1/SkiaSharp.HarfBuzz.xml",
+        "skiasharp.harfbuzz.2.88.6.nupkg.sha512",
+        "skiasharp.harfbuzz.nuspec"
       ]
     },
     "SkiaSharp.NativeAssets.Linux/2.88.6": {
@@ -2743,6 +2911,50 @@
         "lib/netstandard2.0/Splat.xml",
         "splat.14.4.1.nupkg.sha512",
         "splat.nuspec"
+      ]
+    },
+    "Svg.Custom/1.0.0.18": {
+      "sha512": "bavGcKBodZwHY65Yw2JJ/Vd2ghNh7FYrqiDngPDv21uu6Uy8pj9FAQWYyoeBAyPmEVN/WFAl1l4CKMGEYlIuXw==",
+      "type": "package",
+      "path": "svg.custom/1.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Svg.Custom.dll",
+        "lib/net8.0/Svg.Custom.dll",
+        "lib/netstandard2.0/Svg.Custom.dll",
+        "svg.custom.1.0.0.18.nupkg.sha512",
+        "svg.custom.nuspec"
+      ]
+    },
+    "Svg.Model/1.0.0.18": {
+      "sha512": "DXs+nOWjR4/xZp5wExWS3Ih8JN3MAwdhIrczduzKkO2pIox08DQnoyWWGy9nVlGnby7gyqAMDtLpbY639pugcA==",
+      "type": "package",
+      "path": "svg.model/1.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Svg.Model.dll",
+        "lib/net6.0/Svg.Model.dll",
+        "lib/net8.0/Svg.Model.dll",
+        "lib/netstandard2.0/Svg.Model.dll",
+        "svg.model.1.0.0.18.nupkg.sha512",
+        "svg.model.nuspec"
+      ]
+    },
+    "Svg.Skia/1.0.0.18": {
+      "sha512": "o+fajf+Z3OUtLahZuwigeeS+bXNr21iyP4koweeDln9hD7Bzayw50IHJ6bPprfkRMpMkwMob7rWyupYq0GaEAg==",
+      "type": "package",
+      "path": "svg.skia/1.0.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Svg.Skia.dll",
+        "lib/net6.0/Svg.Skia.dll",
+        "lib/net8.0/Svg.Skia.dll",
+        "lib/netstandard2.0/Svg.Skia.dll",
+        "svg.skia.1.0.0.18.nupkg.sha512",
+        "svg.skia.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -4696,23 +4908,24 @@
       "Avalonia.Diagnostics >= 11.0.6",
       "Avalonia.Fonts.Inter >= 11.0.6",
       "Avalonia.ReactiveUI >= 11.0.6",
+      "Avalonia.Svg.Skia >= 11.0.0.18",
       "Avalonia.Themes.Fluent >= 11.0.6"
     ]
   },
   "packageFolders": {
-    "/Users/jovanyrobledo/.nuget/packages/": {}
+    "/Users/jovany/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
+      "projectUniqueName": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
       "projectName": "ProyectoDeVerdad",
-      "projectPath": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
-      "packagesPath": "/Users/jovanyrobledo/.nuget/packages/",
-      "outputPath": "/Volumes/Ragnar HD/ProyectoFinal2doSemestre/ProyectoDeVerdad/ProyectoDeVerdad/obj/",
+      "projectPath": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/ProyectoDeVerdad.csproj",
+      "packagesPath": "/Users/jovany/.nuget/packages/",
+      "outputPath": "/Volumes/Ragnar HD/ProyectoDeVerdad/ProyectoDeVerdad/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/jovanyrobledo/.nuget/NuGet/NuGet.Config"
+        "/Users/jovany/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4756,6 +4969,10 @@
             "target": "Package",
             "version": "[11.0.6, )"
           },
+          "Avalonia.Svg.Skia": {
+            "target": "Package",
+            "version": "[11.0.0.18, )"
+          },
           "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.0.6, )"
@@ -4777,7 +4994,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/jovany/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

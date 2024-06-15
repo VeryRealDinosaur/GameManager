@@ -50,17 +50,18 @@
             <TextBlock></TextBlock>
         </DockPanel>
         <Image Source="/Assets/TopBar.png" ZIndex="2" VerticalAlignment="Top" x:Name="TopPanel"/>
+        <Grid ColumnDefinitions="*,*" ZIndex="3">
+            
+            <Button Grid.Column="0" Content="&lt;" HorizontalAlignment="Left" FontSize="30" Background="Transparent" Foreground="Black" x:Name="Left" Click="Left_OnClick"/>
+            <Button Grid.Column="1" Content=">" HorizontalAlignment="Right" FontSize="30" Background="Transparent" Foreground="Black" x:Name="Right" Click="Right_OnClick"/>
+        </Grid>
         
         <StackPanel ZIndex="2" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="StackPanel"> 
-            <ScrollViewer HorizontalScrollBarVisibility="Visible" x:Name="ScrollViewer" ScrollChanged="ScrollViewer_OnScrollChanged">
-                <Grid Grid.Row="0" ColumnDefinitions="Auto,auto,*,auto,auto"  >
+            <ScrollViewer HorizontalScrollBarVisibility="Hidden" x:Name="ScrollViewer" ScrollChanged="ScrollViewer_OnScrollChanged">
+                <Grid Grid.Row="0" ColumnDefinitions="Auto,auto,auto,auto,auto,Auto,Auto,auto,auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,auto"  >
                     
-                    <Button Grid.Column="0" x:Name="topBuffer" Height="0">
-                                    <Image Source="/Assets/EmptyImage.png" Width="300" Height="300"/>
-                                </Button>
-                    
-                    <Button Grid.Column="1" x:Name="GatoButton" Click="GatoButton_OnClick" HorizontalAlignment="Center">
-                        <Image x:Name="GatoCover"
+                    <Button Grid.Column="0" x:Name="GatoButton" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image
                             Source="/Assets/Gato_GameCover.png"
                         >
                             <Image.Transitions>
@@ -101,7 +102,7 @@
                         </Button.Styles>
                     </Button>
                     
-                    <Button Grid.Column="2" x:Name="PPoTButton" HorizontalAlignment="Center">
+                    <Button Grid.Column="1" x:Name="PPoTButton" HorizontalAlignment="Center" Click="PPoTButton_OnClick">
                         <Image
                             Source="/Assets/PPoT_GameCover.png"
                         >
@@ -143,7 +144,7 @@
                         </Button.Styles>
                     </Button>
 
-                    <Button Grid.Column="3" x:Name="RiskButton" HorizontalAlignment="Center">
+                    <Button Grid.Column="2" x:Name="RiskButton" HorizontalAlignment="Center" Click="RiskButton_OnClick">
                         <Image
                             Source="/Assets/Risk_GameCover.png"
                         >
@@ -185,18 +186,893 @@
                         </Button.Styles>
                     </Button>
                     
-                    <Button Grid.Column="4" x:Name="bottomBuffer" Height="0">
-                        <Image Source="/Assets/EmptyImage.png" Width="300" Height="300"/>
+                    <Button Grid.Column="3" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="4" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="5" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="6" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="7" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="8" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="9" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image 
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="10" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="11" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="12" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image 
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="13" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="14" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="15" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="16" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="17" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="18" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="19" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="20" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="21" Click="GatoButton_OnClick" HorizontalAlignment="Center">
+                        <Image x:Name="GatoCover"
+                            Source="/Assets/Gato_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+                    
+                    <Button Grid.Column="22" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/PPoT_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
+                    </Button>
+
+                    <Button Grid.Column="23" HorizontalAlignment="Center">
+                        <Image
+                            Source="/Assets/Risk_GameCover.png"
+                        >
+                            <Image.Transitions>
+                                <Transitions>
+                                    <DoubleTransition Property="Width" Duration="0:0:0.2" />
+                                    <DoubleTransition Property="Height" Duration="0:0:0.2" />
+                                    <ThicknessTransition Property="Margin" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Image.Transitions>
+                            <Image.Styles>
+                                <Style Selector="Button > Image">
+                                    <Setter Property="Width" Value="300" />
+                                    <Setter Property="Height" Value="300" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pointerover > Image">
+                                    <Setter Property="Width" Value="360" />
+                                    <Setter Property="Height" Value="360" />
+                                    <Setter Property="Margin" Value="0" />
+                                </Style>
+                                <Style Selector="Button:pressed > Image">
+                                    <Setter Property="Width" Value="396" />
+                                    <Setter Property="Height" Value="396" />
+                                    <Setter Property="Margin" Value="0"/>
+                                </Style>
+                            </Image.Styles>
+                        </Image>
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Button.Styles>
                     </Button>
                         
                 </Grid>
             </ScrollViewer>
         </StackPanel>
         
-        <Grid ColumnDefinitions="*,*" ZIndex="1">
-            <Button Grid.Column="0" Content="&lt;" HorizontalAlignment="Left" />
-            <Button Grid.Column="1" Content=">" HorizontalAlignment="Right"/>
-        </Grid>
+        
         
         <Image Source="/Assets/wallpaper2.jpg" Stretch="UniformToFill" ZIndex="0" x:Name="Background"/>
         
